@@ -157,6 +157,10 @@ hr {
     height: 300px;
     color: rgb(7, 0, 0);
     background-image: url(./img/1303321320_h__tel_dieu_de_montr__al.jpg);
+    
+/*ajustar el contraste en el archivo de imagen definitivo*/
+
+
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -167,11 +171,21 @@ hr {
 }
 
 .banner h2 {
-    font-size: 25px;
+    font-size: 30px;
+    filter: contrast(100%);
     font-weight: bolder;
+    color: rgb(0, 0, 0);
+    
+    
 }
 
 .banner p {
-    font-size: 22px;
-    font-weight: bolder;
+    
+    filter: contrast(100%);
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    
+    
 }
