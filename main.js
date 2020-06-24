@@ -6,6 +6,8 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
 
 });
 
+
+
 ScrollReveal().reveal('.showcase');
 ScrollReveal().reveal('.cards', { delay: 100 });
 ScrollReveal().reveal('.banner', { delay: 100 });

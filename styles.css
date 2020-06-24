@@ -138,6 +138,7 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
     margin: 10px 0;
+    margin-top: 70px;
 }
 
 .cards img {
@@ -179,6 +180,7 @@ hr {
     padding-bottom: 20px;
     justify-content: flex-end;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .banner h2 {
@@ -202,8 +204,8 @@ hr {
 }
 
 .social {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     width: 100%;
 
 }
@@ -232,25 +234,19 @@ hr {
 
 .footer-links {
     background-color: rgb(34, 34, 34);
-    color: grey;
+    color: rgba(128, 128, 128, 0.158);
     font-size: 30px;
-    padding: 35px;
+    padding: 15px;
 }
 
 .footer-container ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
-    gap: 30px;
-    /*border: solid 1px black;*/
-}
-
-/*los bordes los use como guia para configurar el grid, los dejo comentados*/
-
-.footer-container ul li{
-    /*border: solid 1px black;*/
+    gap: 15px;
     
 }
+
 
 .footer-container ul li a{
     text-align: center;
@@ -318,4 +314,11 @@ hr {
         /*border: solid 1px black;*/
     }
 
+}
+
+/*html del showcase*/
+
+.imagen-showcase-arch img {
+    max-width:100%;
+    height:auto;
 }
