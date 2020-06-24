@@ -233,8 +233,8 @@ hr {
 /*footer*/
 
 .footer-links {
-    background-color: rgb(34, 34, 34);
-    color: rgba(128, 128, 128, 0.158);
+    background-color: rgba(34, 34, 34, 0.452);
+    color: rgb(128, 128, 128);
     font-size: 30px;
     padding: 15px;
 }
