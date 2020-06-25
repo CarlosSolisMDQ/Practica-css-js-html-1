@@ -76,6 +76,10 @@ ul {
     display: none;
 }
 
+.nav-menu-right li a i {
+    display: none;
+}
+
 hr {
     margin: 10px;
 }
